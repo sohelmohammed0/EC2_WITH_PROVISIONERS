@@ -28,8 +28,8 @@ With this Terraform template, you can:
 ### Steps:
 1. **Clone the Repository**:
    ```sh
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/sohelmohammed0/EC2_WITH_PROVISIONERS.git
+   cd EC2_WITH_PROVISIONERS
    ```
 2. **Initialize Terraform**:
    ```sh
@@ -45,7 +45,7 @@ With this Terraform template, you can:
    ```
 5. **Access Your EC2 Instance**:
    ```sh
-   ssh -i "C:/Users/sohel mohammed/useast.pem" ubuntu@<public-ip>
+   ssh ubuntu@<public-ip>
    ```
 
 ## Cleanup
