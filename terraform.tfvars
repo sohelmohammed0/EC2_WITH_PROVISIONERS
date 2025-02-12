@@ -1,0 +1,17 @@
+region                = "us-east-1"
+project_name          = "EC2-Project"
+allowed_ssh_ips       = ["0.0.0.0/0"]
+ami_id                = "ami-04b4f1a9cf54c11d0" # Ubuntu 22.04 AMI for us-east-1
+instance_type         = "t2.micro"
+key_name              = "useast"
+volume_size           = 8
+volume_type           = "gp3"
+encrypted_volume      = true
+instance_count        = 1
+web_servers           = ["nginx"]
+allowed_security_groups = ["ssh", "http", "https"]
+create_security_groups = true
+ssh_private_key_path  = "C:/Users/sohel mohammed/useast.pem"
+ssh_user              = "ubuntu"
+associate_eip         = false
+enable_monitoring     = false
